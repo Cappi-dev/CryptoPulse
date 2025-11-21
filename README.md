@@ -92,18 +92,9 @@ Contributing
 2. Implement your changes and add tests where applicable
 3. Open a pull request with a clear description of your changes
 
-Deployment
 
-The app is a static frontend and can be deployed to Vercel, Netlify, or any static host. If you rely on CoinGecko in production, prefer using a lightweight server-side proxy to avoid exposing many clients directly to the API and to add caching.
 
-License
 
-MIT — feel free to use and modify.
 
-Questions / Next steps
 
-- Want me to add import/export + clear-watchlist actions (easy)?
-- Want a Vite dev proxy configured automatically (dev-only)?
-- Want a small serverless proxy example for production?
 
-If you tell me which option you prefer I can implement it and update the README with deployment instructions.
